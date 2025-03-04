@@ -10,12 +10,13 @@
 
     &--primary {
         color: variables.$textColor;
-        background-color: variables.$purple;
+        background-color: variables.$bluebutton;
     }
 
     @media (max-width: 640px) {
         display: block;
         width: 100%;
+        justify-content: center;
     }
 
     @media (max-width: 1024px) {

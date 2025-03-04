@@ -3,7 +3,7 @@
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/cats_birthday.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -35,15 +35,16 @@
 
     &__logo {
         margin: 0 auto;
-        height: 80px;
+        height: 270px;
         display: block;
+        border-radius: 10%;
     }
 
     @media (max-width: 640px) {
         padding: 40px 0;
 
         &__logo {
-            height: 40px;
+            height: 230px;
         }
 
         &__text {
